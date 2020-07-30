@@ -24,6 +24,7 @@ class Song
     #   uniq_artist.push(art) unless uniq_artist.include?(art)
     # end
     # return uniq_artist
+    @@artists.uniq
   end
   
   def self.artist_count
