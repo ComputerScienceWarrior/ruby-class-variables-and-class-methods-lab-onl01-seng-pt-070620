@@ -19,11 +19,6 @@ class Song
   end
   
   def self.artists
-    # uniq_artist = []
-    # @@artists.each do |art|
-    #   uniq_artist.push(art) unless uniq_artist.include?(art)
-    # end
-    # return uniq_artist
     @@artists.uniq
   end
   
