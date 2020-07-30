@@ -15,19 +15,15 @@ class Song
   end
   
   def self.genres
-    # uniq_genres = []
-    # @@genres.each do |gen|
-    #   uniq_genres.push(gen) unless uniq_genres.include?(gen)
-    # end
     @@genres.uniq
   end
   
   def self.artists
-    uniq_artist = []
-    @@artists.each do |art|
-      uniq_artist.push(art) unless uniq_artist.include?(art)
-    end
-    return uniq_artist
+    # uniq_artist = []
+    # @@artists.each do |art|
+    #   uniq_artist.push(art) unless uniq_artist.include?(art)
+    # end
+    # return uniq_artist
   end
   
   def self.artist_count
